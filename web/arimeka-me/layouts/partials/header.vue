@@ -48,7 +48,7 @@
                 </ul>
               </li>
               <li class="menu-item">
-                <a href="categories.html">Categories</a>
+                <a href="/tags/foobar">Categories</a>
               </li>
               <li class="menu-item">
                 <a href="about.html">About</a>

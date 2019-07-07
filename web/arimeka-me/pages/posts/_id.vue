@@ -8,7 +8,7 @@
               <div class="type-standard">
                 <article class="post type-post">
                   <div class="top-content text-center">
-                    <span class="category"><a href="categories.html">Lifestyle</a></span><!-- /.category -->
+                    <span class="category"><a href="/tags/foobar">Lifestyle</a></span><!-- /.category -->
                     <h2 class="entry-title">
                       <a href="/posts/foobar">What to explore in key west</a>
                     </h2><!-- /.entry-title -->

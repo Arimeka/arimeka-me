@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import PostPreview from './partials/PostPreview'
+import PostPreview from './partials/PostPreviewInline'
 export default {
   name: 'PostList',
   components: { PostPreview }
