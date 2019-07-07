@@ -8,7 +8,7 @@
               <div class="type-standard">
                 <article class="post type-post">
                   <div class="top-content text-center">
-                    <span class="category"><a href="/tags/foobar">Lifestyle</a></span><!-- /.category -->
+                    <span class="tag"><a href="/tags/foobar">Lifestyle</a></span><!-- /.tag -->
                     <h2 class="entry-title">
                       <a href="/posts/foobar">What to explore in key west</a>
                     </h2><!-- /.entry-title -->
@@ -45,15 +45,6 @@
                     <p>
                       Morbi tortor leo, ultrices quis bibendum vel, gravida sit amet nisl. Quisque quis enim rhoncus, mollis libero id, volutpat lacus. Nam eget nisi ut lacus faucibus maximus. Morbi porttitor ligula risus, eget consequat velit dictum tique, pharetra felis eu, gravida ante.
                     </p>
-
-                    <div class="post-meta">
-                      <span class="post-social pull-right">
-                        <a href="#"><i class="fa fa-instagram" /></a>
-                        <a href="#"><i class="fa fa-facebook" /></a>
-                        <a href="#"><i class="fa fa-twitter" /></a>
-                        <a href="#"><i class="fa fa-pinterest-p" /></a>
-                      </span><!-- /.post-social -->
-                    </div><!-- /.post-meta -->
                   </div><!-- /.entry-content -->
                 </article><!-- /.post -->
               </div><!-- /.type-standard -->

@@ -13,9 +13,7 @@
             Ahasellus rhoncus laoreet odio, sit amet rutrum metus aliquet quis. Sed sed nulla erat. Curabitur ullamcorper dum tortor.
           </p>
           <div class="author-social">
-            <a href="#"><i class="fa fa-pinterest-p" /></a>
-            <a href="#"><i class="fa fa-facebook" /></a>
-            <a href="#"><i class="fa fa-instagram" /></a>
+            <a href="#"><i class="fa fa-github fa-2x" /></a>
           </div><!-- /.author-social -->
         </div><!-- /.widget-details -->
       </div><!-- /.widget -->

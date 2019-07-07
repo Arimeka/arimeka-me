@@ -5,7 +5,7 @@
     </b-media-aside>
 
     <b-media-body class="entry-content">
-      <span class="category"><a href="/tags/foobar">Lifestyle</a></span><!-- /.category -->
+      <span class="tag"><a href="/tags/foobar">Lifestyle</a></span><!-- /.tag -->
       <h2 class="entry-title">
         <a href="/posts/foobar">Cruise to Alaska</a>
       </h2><!-- /.entry-title -->

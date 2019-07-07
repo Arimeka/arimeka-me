@@ -4,7 +4,7 @@
       <img src="/images/posts/02/1.jpg" alt="Thumbnail Image">
     </div><!-- /.entry-thumbnail -->
     <div class="entry-content">
-      <span class="category"><a href="/tags/foobar">Lifestyle</a></span><!-- /.category -->
+      <span class="tag"><a href="/tags/foobar">Lifestyle</a></span><!-- /.tag -->
       <h2 class="entry-title">
         <a href="/posts/foobar">Cruising into Spring </a>
       </h2><!-- /.entry-title -->

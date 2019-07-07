@@ -60,21 +60,7 @@ export default {
     line-height: 24px;
     margin: 10px 0;
   }
-  .overlay {
-    background: rgba(0, 0, 0, 0.25);
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-  }
-  .background-bg {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
-  .category {
+  .tag {
     border-bottom: 1px solid #af7152;
     color: #af7152;
     display: inline-block;
@@ -84,7 +70,7 @@ export default {
     padding-bottom: 5px;
     text-transform: uppercase;
   }
-  .category a {
+  .tag a {
     color: #af7152;
   }
   .btn {
@@ -178,20 +164,6 @@ export default {
   .entry-content .btn {
     margin-top: 9px;
   }
-  .widget-title,
-  .comment-title,
-  .respond-title {
-    border-bottom: 1px solid #000;
-    color: #000;
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 1;
-    margin: 0 0 25px;
-    padding: 0 0 3px;
-    text-transform: uppercase;
-  }
   .btn-container {
     display: inline-block;
     margin-top: 10px;
@@ -266,35 +238,5 @@ export default {
   }
   blockquote:after {
     bottom: 0;
-  }
-  blockquote.style-02 {
-    border-left: 2px solid #af7152;
-    color: #999;
-    font-size: 25px;
-    line-height: 1.45;
-    padding: 1% 3%;
-    text-align: left;
-  }
-  blockquote.style-02:before,
-  blockquote.style-02:after {
-    display: none;
-  }
-  .carousel-control {
-    background: none !important;
-    box-shadow: none;
-    font-size: 24px;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    margin-top: -15px;
-    opacity: 1;
-    text-align: center;
-    top: 50%;
-  }
-  .carousel-control.left {
-    left: 25px;
-  }
-  .carousel-control.right {
-    right: 25px;
   }
 </style>

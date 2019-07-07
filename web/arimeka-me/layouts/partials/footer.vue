@@ -16,10 +16,7 @@
 
         <b-col sm="3">
           <div class="footer-social pull-right">
-            <a href="#"><i class="fa fa-instagram" /></a>
-            <a href="#"><i class="fa fa-facebook" /></a>
-            <a href="#"><i class="fa fa-twitter" /></a>
-            <a href="#"><i class="fa fa-pinterest-p" /></a>
+            <a href="https://github.com/"><i class="fa fa-github fa-2x" /></a>
           </div><!-- /.footer-social -->
         </b-col>
       </b-row><!-- /.row -->
