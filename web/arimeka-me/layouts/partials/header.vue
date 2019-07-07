@@ -2,8 +2,8 @@
   <header class="masthead">
     <div class="header-top d-none d-sm-block">
       <b-container>
-        <b-navbar-brand href="./">
-          <img src="http://demos-jeweltheme.ipunu91y.maxcdn-edge.com/sasha/images/logo.png" alt="Site Logo">
+        <b-navbar-brand href="/">
+          <img src="/images/logo.png" alt="Site Logo">
         </b-navbar-brand>
       </b-container><!-- /.container -->
     </div><!-- /.header-top -->
@@ -11,8 +11,8 @@
     <div class="header-bottom">
       <b-container>
         <b-navbar type="default" toggleable="md">
-          <b-navbar-brand class="navbar-brand d-sm-none d-block" href="./">
-            <img src="http://demos-jeweltheme.ipunu91y.maxcdn-edge.com/sasha/images/logo3.png" alt="Site Logo">
+          <b-navbar-brand class="navbar-brand d-sm-none d-block" href="/">
+            <img src="/images/logo3.png" alt="Site Logo">
           </b-navbar-brand>
           <b-navbar-toggle
             target="main-menu"
@@ -218,10 +218,12 @@ if (process.client) {
     background: none;
     color: #e4e4e4;
   }
+  #main-menu {
+    justify-content: center;
+  }
   @media (min-width: 768px) {
     header .navbar-default .navbar-nav {
       float: none;
-      justify-content: center;
     }
     header .navbar-default .navbar-nav li {
       float: none;

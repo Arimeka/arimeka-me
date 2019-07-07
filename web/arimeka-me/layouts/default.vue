@@ -1,5 +1,5 @@
 <template>
-  <div class="overlay-wrapper">
+  <div>
     <Header />
     <nuxt />
     <Footer />

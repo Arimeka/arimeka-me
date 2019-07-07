@@ -3,7 +3,7 @@
     <b-container>
       <b-row>
         <b-col sm="3">
-          <a href="./" class="footer-logo pull-left"><img src="http://demos-jeweltheme.ipunu91y.maxcdn-edge.com/sasha/images/logo4.png" alt="Logo"></a><!-- /.footer-logo -->
+          <a href="./" class="footer-logo pull-left"><img src="/images/logo4.png" alt="Logo"></a><!-- /.footer-logo -->
         </b-col>
 
         <b-col sm="6">

@@ -7,7 +7,7 @@
         </h3><!-- /.widget-title -->
         <div class="widget-details">
           <div class="author-avatar">
-            <img src="http://demos-jeweltheme.ipunu91y.maxcdn-edge.com/sasha/images/sidebar/a.jpg" alt="Avatar" class="img-circle">
+            <img src="/images/sidebar/a.jpg" alt="Avatar" class="img-circle">
           </div><!-- /.author-avatar -->
           <p>
             Ahasellus rhoncus laoreet odio, sit amet rutrum metus aliquet quis. Sed sed nulla erat. Curabitur ullamcorper dum tortor.

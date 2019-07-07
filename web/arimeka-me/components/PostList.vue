@@ -2,6 +2,7 @@
   <b-col sm="8">
     <div class="list-posts">
       <PostPreview />
+      <PostPreview show-image />
     </div><!-- /.list-posts -->
 
     <nav class="pagination pagination-02">
@@ -28,13 +29,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .list-posts {
     margin-bottom: 22px;
   }
   .list-posts article {
     border-bottom: 1px solid #eaeaea;
-    display: inline-block;
     margin: 23px 0 0;
     padding-bottom: 25px;
     width: 100%;
@@ -129,5 +129,10 @@ export default {
     background: #af7152;
     border-color: #af7152;
     color: #fff;
+  }
+  @media (max-width: 992px) {
+    .list-posts article .entry-thumbnail {
+      max-width: initial;
+    }
   }
 </style>
