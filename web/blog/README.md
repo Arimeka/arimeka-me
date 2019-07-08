@@ -1,4 +1,4 @@
-# arimeka-me
+# blog
 
 > Blog site
 
