@@ -1,3 +1,5 @@
+const TITLE = 'Navi Arimeka';
+const DESCRIPTION = 'Backend developer';
 
 export default {
   mode: 'universal',
@@ -5,11 +7,15 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Navi Arimeka',
+    title: TITLE,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Backend developer' }
+      { hid: 'description', name: 'description', content: DESCRIPTION },
+      { hid: 'og:title', property: 'og:title', content: TITLE },
+      { hid: 'og:description', property: 'og:description', content: DESCRIPTION },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Arimeka.me' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: TITLE }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -39,7 +45,6 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/eslint-module',
     '@nuxtjs/font-awesome'
   ],
   /*

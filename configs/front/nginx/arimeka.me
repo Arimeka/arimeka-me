@@ -1,0 +1,28 @@
+upstream arimeka_me_front_upstream {
+  server 0.0.0.0:3000 fail_timeout=0;
+}
+
+server {
+        server_name www.arimeka.me;
+        return 301 $scheme://arimeka.me$request_uri;
+}
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	root /home/arimeka/arimeka-me/front/static;
+
+	server_name arimeka.me;
+
+	location / {
+		try_files $uri @backend;
+	}
+
+	location @backend {
+		proxy_buffer_size 16k;
+		proxy_buffers 8 16k;
+		proxy_busy_buffers_size 32k;
+		proxy_pass http://arimeka_me_front_upstream;
+	}
+}

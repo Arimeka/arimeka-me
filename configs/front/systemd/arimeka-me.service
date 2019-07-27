@@ -1,0 +1,14 @@
+[Unit]
+Description=arimeka-me landing page
+StartLimitIntervalSec=0
+
+[Service]
+WorkingDirectory=/home/arimeka/arimeka-me/front
+Type=simple
+Restart=always
+RestartSec=1
+User=arimeka
+ExecStart=/usr/bin/env npm run start
+
+[Install]
+WantedBy=nginx.service
