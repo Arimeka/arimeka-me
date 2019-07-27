@@ -3,7 +3,6 @@
     <Header />
     <nuxt />
     <Footer />
-    <script src="/js/main.js" />
   </div>
 </template>
 

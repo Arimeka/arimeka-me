@@ -9,36 +9,12 @@
                 Tag - Lifestyle
               </h2><!-- /.section-title -->
             </div><!-- /.details-top -->
-            <div class="col-sm-4">
+            <b-col sm="4">
               <PostPreview />
-            </div>
-            <div class="col-sm-4">
+            </b-col>
+            <b-col sm="4">
               <PostPreview show-image />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview show-image />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview show-image />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview show-image />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview />
-            </div>
-            <div class="col-sm-4">
-              <PostPreview show-image />
-            </div>
+            </b-col>
           </div><!-- /.tags -->
         </div><!-- /.row -->
       </div><!-- /.container -->
@@ -47,7 +23,8 @@
 </template>
 
 <script>
-import PostPreview from '../../components/partials/PostPreviewBlock'
+import PostPreview from '~/components/partials/PostPreviewBlock'
+
 export default {
   components: { PostPreview }
 }
