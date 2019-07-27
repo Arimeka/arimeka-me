@@ -13,7 +13,7 @@
                 backend developer
               </h5>
               <div class="d-flex align-items-center social">
-                <a href="https://github.com/Arimeka" target="_blank"><i class="fa fa-github fa-4x" /></a>
+                <a href="https://github.com/Arimeka" target="_blank" rel="noopener" aria-label="Github Page"><i class="fa fa-github fa-4x" /></a>
               </div>
             </div>
           </div>

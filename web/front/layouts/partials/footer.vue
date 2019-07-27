@@ -5,7 +5,7 @@
         <div class="col-lg-12">
           <div class="footer_top flex-column">
             <div class="social">
-              <a href="https://github.com/Arimeka" target="_blank"><i class="fa fa-github fa-2x" /></a>
+              <a href="https://github.com/Arimeka" target="_blank" rel="noopener" aria-label="Github Page"><i class="fa fa-github fa-2x" /></a>
             </div>
           </div>
         </div>
@@ -13,7 +13,7 @@
       <div class="row footer_bottom justify-content-center">
         <p class="col-lg-8 col-sm-12 footer-text">
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-          This template is made with <i class="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          This template is made with <i class="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
           <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </p>
       </div>

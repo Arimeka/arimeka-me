@@ -1,0 +1,20 @@
+{
+    "name": "Navi Arimeka",
+    "short_name": "Arimeka",
+    "start_url": "/?standalone=true",
+    "icons": [
+        {
+            "src": "/icon-192x.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
