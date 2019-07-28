@@ -1,7 +1,6 @@
 {
     "name": "Navi Arimeka",
     "short_name": "Arimeka",
-    "start_url": "/?standalone=true",
     "icons": [
         {
             "src": "/icon-192x.png",
@@ -16,5 +15,5 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "browser"
 }

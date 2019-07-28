@@ -8,7 +8,7 @@
               <h1 class="text-uppercase">
                 Navi Arimeka
               </h1>
-              <small>(nope it's not real name)</small>
+              <small>(nope it's not a real name)</small>
               <h5 class="text-uppercase">
                 backend developer
               </h5>

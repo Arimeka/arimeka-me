@@ -1,5 +1,6 @@
 const TITLE = 'Navi Arimeka';
 const DESCRIPTION = 'Backend developer';
+const IMAGE = 'https://arimeka.me/fb-sharing.png';
 
 export default {
   mode: 'universal',
@@ -15,7 +16,14 @@ export default {
       { hid: 'og:title', property: 'og:title', content: TITLE },
       { hid: 'og:description', property: 'og:description', content: DESCRIPTION },
       { hid: 'og:site_name', property: 'og:site_name', content: 'Arimeka.me' },
-      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: TITLE }
+      { hid: 'og:url', property: 'og:url', content: 'https://arimeka.me/' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: TITLE },
+      { hid: 'og:image', property: 'og:image', content: IMAGE },
+      { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '1080' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '669' },
+      { hid: 'og:image:alt', property: 'og:image:alt', content: 'Gopher stared at the ruby.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

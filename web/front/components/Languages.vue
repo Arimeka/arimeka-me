@@ -52,7 +52,7 @@
               </g>
             </svg>
             <h4>Lua</h4>
-            <p>Just a tiny scripts for Nginx</p>
+            <p>Just tiny scripts for Nginx</p>
           </div>
         </div>
       </div>
