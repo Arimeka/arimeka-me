@@ -18,6 +18,9 @@
         </p>
       </div>
     </div>
+    <no-ssr>
+      <cookie-law theme="dark-lime" />
+    </no-ssr>
   </footer>
 </template>
 
